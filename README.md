@@ -8,11 +8,11 @@
 <br><br>If servoAngle equals -90, turn the servo -90 degrees. 
 <br>  if(servoAngle == -90)
 <br>  {
-<br>    digitalWrite(servoRightPin, HIGH);
+<br><tab>    digitalWrite(servoRightPin, HIGH);
 <br>    digitalWrite(servoLeftPin, HIGH);
 <br>    delay(2);
 <br>    digitalWrite(servoRightPin, LOW);
 <br>    digitalWrite(servoLeftPin, LOW);
 <br>    delay(18);
 <br>  }
-<br>If servoAngle equals 0, turn the servo 0 degrees. If the servoAngle quals 90, turn servo 90 degrees.
+<br>If servoAngle equals 0, turn the servo 0 degrees. If the servoAngle equals 90, turn servo 90 degrees.
